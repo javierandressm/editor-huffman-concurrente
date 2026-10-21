@@ -1,0 +1,8 @@
+obj/
+editor
+editor.exe
+*.o
+*.d
+*.huf
+*.tmp.*
+video/*.mp4
