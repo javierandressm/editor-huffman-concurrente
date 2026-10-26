@@ -6,11 +6,11 @@
 
 Editor CLI en C para POSIX/Linux que incorpora compresión y descompresión Huffman por bloques con pthread.
 
-La sustentación v3 incluye las demostraciones del editor, pruebas de integridad, procesamiento por bloques, sincronización y cierre de recursos. Consulta [la revisión y los capítulos](docs/REVISION_VIDEO.md).
+La sustentación v4 incluye las demostraciones del editor, pruebas de integridad, procesamiento por bloques, sincronización y cierre de recursos. Consulta [la revisión y los capítulos](docs/REVISION_VIDEO.md).
 
 ## Descargas
 
-[Video y ZIP de la entrega](https://github.com/javierandressm/editor-huffman-concurrente/releases).
+[Video final en Drive](https://drive.google.com/file/d/1_BKVOteCt5HR5_ZXE5QCgXYV_zsN4btQ/view). El código puede descargarse con Code → Download ZIP en GitHub.
 
 ## Compilar y probar en Linux
 
@@ -76,9 +76,16 @@ docs/
 video/README.md
 ```
 
+## Informe del Parcial 2
+
+- [Informe completo en Word](docs/Informe_Parcial_2_Huffman.docx).
+- [Informe completo para leer en GitHub](docs/Informe_Parcial_2_Huffman.md).
+
+Explica la arquitectura, Huffman por bloques, mutex y condiciones, formato, llamadas del sistema, uso, pruebas, recursos y límites conocidos.
+
 ## Video y documentación
 
-- [Sustentación v3](video/README.md) — aproximadamente 12 min 05 s; distribuida por separado del ZIP de código.
+- [Sustentación v4 en Drive](https://drive.google.com/file/d/1_BKVOteCt5HR5_ZXE5QCgXYV_zsN4btQ/view) — aproximadamente 13 min 18 s.
 - [Revisión del video y capítulos](docs/REVISION_VIDEO.md).
 - [Manual de usuario](docs/02_Manual_Usuario.md).
 - [Manual de desarrollador](docs/03_Manual_Desarrollador.md).
@@ -90,4 +97,4 @@ El video incluye ejecución en Linux, `make test`, comparación `cmp` y hashes. 
 
 No se afirma manejo completo de señales externas como SIGTERM: ese punto requiere revisión adicional. El cierre normal con `q` espera la operación y recoge sus hilos. `flock` es cooperativo; no bloquea las escrituras de aplicaciones que lo ignoren.
 
-El MP4 pesa unos 144 MB decimales y se distribuye con el ZIP en [Releases](https://github.com/javierandressm/editor-huffman-concurrente/releases), manteniendo el historial del repositorio centrado en código y documentación.
+La copia del video en Drive conserva 1080p y pesa unos 85 MB. El video se distribuye por separado del código.

@@ -1,9 +1,7 @@
-# Sustentación en video
+# Sustentación final en video
 
-Archivo: **huffman_edit_v3.mp4**  
-Duración aproximada: **12:05**  
-Tamaño: **143 954 699 bytes**
+[Ver la sustentación v4 en Google Drive](https://drive.google.com/file/d/1_BKVOteCt5HR5_ZXE5QCgXYV_zsN4btQ/view)
 
-El video se distribuye por separado del ZIP de código para evitar incluir un MP4 grande en cada descarga del proyecto. Descarga el MP4 y el ZIP desde [Releases](https://github.com/javierandressm/editor-huffman-concurrente/releases).
+Duración aproximada: 13 minutos y 18 segundos. Copia en 1080p de unos 85 MB, con acceso de lectura para cualquier persona que tenga el enlace.
 
-Consulta [los capítulos y la revisión](../docs/REVISION_VIDEO.md).
+[Informe completo del Parcial 2 en Word](../docs/Informe_Parcial_2_Huffman.docx) · [Versión para leer en GitHub](../docs/Informe_Parcial_2_Huffman.md)
